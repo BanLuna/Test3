@@ -1,0 +1,41 @@
+/* Стилізація заголовків */
+h1 {
+    color: #4CAF50;
+}
+
+h2 {
+    color: #2196F3;
+}
+
+/* Стилізація параграфів */
+p {
+    color: #555;
+    font-size: 16px;
+}
+
+/* Кнопки з класом btn */
+.btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 5px;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.btn-secondary {
+    background-color: #f44336;
+    color: white;
+}
+
+/* Селектор атрибуту для текстових полів */
+input[type="text"] {
+    padding: 10px;
+    margin: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
